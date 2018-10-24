@@ -36,42 +36,42 @@
 				<li>
 					<fieldset class="group-signup">
 						<legend class="legend">Tìm Kiếm</legend>
-						<form id="form-signup" name="formSignup" method="get" align="right-side">
+						<form id="form-signup" name="formSignup" method="get" align="right-side" onSubmit="return(onFormSignUp());">
 							<table cellpadding="0" cellspacing="0">
 								<tbody>
 									<tr>
-										<td align="right">Tên Sách</td>
+										<td align="right">Tên đăng nhập</td>
 										<td width="20"></td>
 										<td align="left">
-											<input type="text" placeholder="Tên Sách" id="tensach" value>
+											<input type="text" placeholder="Tên đăng nhập" id="tendangnhap" value>
 										</td>
 									</tr>
 									<tr>
-										<td align="right">Thể Loại</td>
+										<td align="right">Email</td>
 										<td width="20"></td>
 										<td align="left">
-											<input type="text"  placeholder="Thể Loại" id="theloai" value>
+											<input type="email"  placeholder="Email" id="email" value style="width: 198px" ">
 										</td>
 									</tr>
 									<tr>
-										<td align="right">Tác giả</td>
+										<td align="right">Mật khẩu</td>
 										<td width="20"></td>
 										<td align="left">
-											<input type="text"  placeholder="Tác Giả" id="tacgia" value>
+											<input type="password"  placeholder="Mật khẩu" id="matkhau" value>
 										</td>
 									</tr>
 									<tr>
-										<td align="right">Năm Xuất Bản</td>
+										<td align="right">Nhập lại mật khẩu</td>
 										<td width="20"></td>
 										<td align="left">
-											<input type="text"  placeholder="Năm Xuất Bản" id="namxuatban" value>
+											<input type="password"  placeholder="Nhập lại mật khẩu" id="nhaplaimatkhau" value >
 										</td>
 									</tr>
 									<tr>
 										<td align="right">        </td>
 										<td width="20"></td>
 										<td align="left">
-											<button type ="submit">Tìm Kiếm</button>
+											<button type ="submit">Đăng kí</button>									
 									<!--<a type="button" href="/26/DangKy.php">Đăng Ký Tài Khoản</a>-->
 										</td>
 									</tr>
@@ -85,5 +85,6 @@
 
 
 		</div>
+		<script src="KiemTraDangKi.js"></script>											  
 	</body>
 </html>
