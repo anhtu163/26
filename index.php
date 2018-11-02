@@ -69,8 +69,7 @@
 										<td align="right">        </td>
 										<td width="20"></td>
 										<td align="left">
-											<button type ="submit">Tìm Kiếm</button>
-									<!--<a type="button" href="/26/DangKy.php">Đăng Ký Tài Khoản</a>-->
+											<button type ="submit">Tìm Kiếm</button>									
 										</td>
 									</tr>
 								</tbody>
@@ -86,35 +85,36 @@
 				<li>
 					<fieldset class="group-login">
 						<legend class="legend">Đăng nhập</legend>
-						<form id="form-login" name="formLogin" method="get" align="right-side">
+						<form action="SignIn.php" id="form-login" name="formLogin" method="post" align="right-side" onSubmit="return(onFormSignIn());" >
 							<table cellpadding="0" cellspacing="0">
 								<tbody>
 									<tr>
 										<td align="right">Username</td>
 										<td width="20"></td>
 										<td align="left">
-											<input type="text" placeholder="Tên Đăng Nhập" id="user" value>
+											<input type="text" placeholder="Tên Đăng Nhập" id="User" name="User" style="width: 218px">
 										</td>
 									</tr>
 									<tr>
 										<td align="right">Password</td>
 										<td width="20"></td>
 										<td align="left">
-											<input type="password"  placeholder="Mật khẩu" id="pass" value>
+											<input type="password" placeholder="Mật khẩu" id="Pass" name="Pass" style="width: 218px">
 										</td>
 									</tr>
 									<tr>
 										<td align="right">        </td>
 										<td width="20"></td>
 										<td align="left">
-											<button type ="submit">Đăng Nhập</button>
-											<a type="button" href="/26/DangKy.php">Đăng Ký Tài Khoản</a>
+											<button type ="submit" class="button" name="dangnhap">Đăng Nhập</button>				
+											<a type="button" href="/26/DangKy.php"><u>Đăng Ký Tài Khoản</u></a>
 										</td>
 									</tr>
 								</tbody>
 							</table>
 						</form>
 					</fieldset>
+					<script src="KiemTraDangNhap.js"></script>
 				</li>
 			</ul>
 			<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
