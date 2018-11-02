@@ -45,11 +45,11 @@ function onFormSignUp(){
 	var atpos = email.indexOf("@");
     var dotpos = email.lastIndexOf(".");
 	
-	if (atpos < 1 || ( dotpos - atpos != 6 )) {
+	if (atpos < 1 || ( dotpos - atpos != 6 ))
+	{
             alert("Vui lòng nhập đúng định dạng email !")                        
 			Email.focus();
 			return false;
     }	
-	alert("Đăng kí tài khoản thành công");
 	return true;
 }
