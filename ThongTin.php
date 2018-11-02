@@ -22,7 +22,7 @@
 					<li><a href="/26">Trang Chủ</a></li>
 					<li><a href="/26/ThongTin.php">Thông Tin</a></li>
 					<li><a href="/26/Ebook.php">Ebook</a></li>
-					<li><a href="/26/QA.php">Q/A</a></li>
+					<li><a href="/26/QA.php">FAQ</a></li>
 				</ul>
 			</div>
 			<div id="top-line"></div>

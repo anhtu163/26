@@ -21,7 +21,7 @@
 							<li><a href="/26">Trang Chủ</a></li>
 							<li><a href="/26/ThongTin.php">Thông Tin</a></li>
 							<li><a href=/26/Ebook.php>Ebook</a></li>
-							<li><a href="/26/QA.php">Q/A</a></li>
+							<li><a href="/26/QA.php">FAQ</a></li>
 						</ul>
 					</div>
 					<div id="top-line"></div>
@@ -100,7 +100,7 @@
 										<td align="right">Password</td>
 										<td width="20"></td>
 										<td align="left">
-											<input type="text"  placeholder="Mật khẩu" id="pass" value>
+											<input type="password"  placeholder="Mật khẩu" id="pass" value>
 										</td>
 									</tr>
 									<tr>
