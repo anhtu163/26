@@ -362,7 +362,7 @@ input:focus{
 	
 }
 .header-line{
-	border:1px solid #f09000;height:85px;margin-left:50px;margin-right:50px;margin-top:30px;
+	border:1px;height:85px;margin-left:50px;margin-right:50px;margin-top:30px;
 }
 .row-books {
 	padding-top:15px;
